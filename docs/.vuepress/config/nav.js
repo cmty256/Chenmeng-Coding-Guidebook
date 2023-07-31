@@ -12,9 +12,9 @@ module.exports = [
   {
     text: "计算机基础",
     items: [
-      { text: "网络", link: "/pages/7b1cb2/" },
-      { text: "操作系统", link: "" },
-      { text: "数据结构", link: "" },
+      { text: "计算机网络", link: "/pages/7b1cb2/" },
+      { text: "操作系统", link: "/pages/6048a8/" },
+      { text: "数据结构", link: "/pages/3b34ba/" },
       { text: "算法", link: "/pages/10071b/" },
       { text: "Linux", link: "/pages/412fe7/" },
     ]
@@ -22,7 +22,7 @@ module.exports = [
   {
     text: "数据库",
     items: [
-      { text: "基础篇", link: "/pages/ccc445/" },
+      { text: "基础篇", link: "/pages/efa3f2/" },
       { text: "MySql", link: "/pages/ccc445/" },
       { text: "Redis", link: "/pages/54616e/" },
     ]

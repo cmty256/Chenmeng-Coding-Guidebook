@@ -11,6 +11,7 @@
   },
   "author": "作者名称",
   "devDependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.9.9",
     "dayjs": "^1.9.7",
     "vuepress": "^1.9.7",
     "vuepress-plugin-baidu-tongji": "^1.0.1",
