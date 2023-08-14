@@ -62,6 +62,7 @@ module.exports = [
         { text: "nvm使用小结", link: "/pages/777b8a/" },
         { text: "Spring MVC 项目构建流程", link: "/pages/477fc6/" },
         { text: "虚拟机固定 IP 地址", link: "/pages/ee770e/" },
+        { text: "项目部署", link: "/pages/f2c351/" },
         { text: "开发疑惑", link: "/pages/170fbd/" },
     ]
   },
