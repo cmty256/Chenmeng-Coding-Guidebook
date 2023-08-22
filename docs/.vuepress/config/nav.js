@@ -6,6 +6,7 @@ module.exports = [
       { text: "基础篇", link: "/pages/11aacc/" },
       { text: "集合篇", link: "/pages/2e780e/" },
       { text: "并发篇", link: "/pages/846d88/" },
+      { text: "JVM", link: "/pages/562a37/" },
       { text: "Java8 新特性", link: "/pages/a5d9a6/" },
     ]
   },
@@ -63,6 +64,7 @@ module.exports = [
         { text: "Spring MVC 项目构建流程", link: "/pages/477fc6/" },
         { text: "虚拟机固定 IP 地址", link: "/pages/ee770e/" },
         { text: "项目部署", link: "/pages/f2c351/" },
+        { text: "Apifox使用小结", link: "/pages/0a4f2c/" },
         { text: "开发疑惑", link: "/pages/170fbd/" },
     ]
   },
@@ -92,6 +94,8 @@ module.exports = [
     items: [
       { text: "博客搭建", link: "/pages/fa256e/" },
       { text: "网站收藏箱", link: "/pages/335531/" },
+      { text: "断墨寻径摘录", link: "/pages/94109b/" },
+      { text: "费曼学习法", link: "/pages/22f2c8/" },
     ]
   }
 ];
