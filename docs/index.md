@@ -14,7 +14,6 @@ features:
 - title: 拿破仑
   details: 你要么成为一名变革者，要么成为一名受害者，没有第三种选择。
 
-
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: none
 # 是否隐藏右侧边栏
@@ -40,6 +39,9 @@ hideRightBar: true
   textColor: '#2A3344'
 ```
 
+<ClientOnly>
+  <WebInfo />
+</ClientOnly>
 
 
 

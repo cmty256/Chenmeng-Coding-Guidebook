@@ -16,7 +16,6 @@ module.exports = [
       { text: "计算机网络", link: "/pages/7b1cb2/" },
       { text: "操作系统", link: "/pages/6048a8/" },
       { text: "数据结构", link: "/pages/3b34ba/" },
-      { text: "算法", link: "/pages/10071b/" },
       { text: "Linux", link: "/pages/412fe7/" },
     ]
   },
@@ -52,6 +51,7 @@ module.exports = [
       { text: "API网关", link: "/pages/c6222f/" },
       { text: "RPC", link: "/pages//" },
       { text: "消息队列", link: "/pages/2f66e5/" },
+      { text: "SpringCloud", link: "/pages/d67430/" },
     ]
   },
   {
@@ -66,6 +66,7 @@ module.exports = [
         { text: "项目部署", link: "/pages/f2c351/" },
         { text: "Apifox使用小结", link: "/pages/0a4f2c/" },
         { text: "开发疑惑", link: "/pages/170fbd/" },
+        { text: "开发小记", link: "/pages/3cd6be/" },
     ]
   },
   {

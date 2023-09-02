@@ -22,5 +22,9 @@
     "vuepress-plugin-reading-time": "^0.1.1",
     "vuepress-plugin-thirdparty-search": "^1.0.2",
     "vuepress-theme-vdoing": "^1.12.8"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "vuepress-plugin-reading-progress": "^1.0.10"
   }
 }
