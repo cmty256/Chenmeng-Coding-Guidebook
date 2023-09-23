@@ -15,7 +15,7 @@ module.exports = [
     items: [
       { text: "计算机网络", link: "/pages/7b1cb2/" },
       { text: "操作系统", link: "/pages/6048a8/" },
-      { text: "数据结构", link: "/pages/3b34ba/" },
+      { text: "数据结构与算法", link: "/pages/3b34ba/" },
       { text: "Linux", link: "/pages/412fe7/" },
     ]
   },
@@ -65,6 +65,7 @@ module.exports = [
         { text: "虚拟机固定 IP 地址", link: "/pages/ee770e/" },
         { text: "项目部署", link: "/pages/f2c351/" },
         { text: "Apifox使用小结", link: "/pages/0a4f2c/" },
+        { text: "lombok注解使用小结", link: "/pages/bdbd1f/" },
         { text: "开发疑惑", link: "/pages/170fbd/" },
         { text: "开发小记", link: "/pages/3cd6be/" },
     ]
