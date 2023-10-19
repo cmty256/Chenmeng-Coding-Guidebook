@@ -51,7 +51,7 @@ module.exports = [
       { text: "API网关", link: "/pages/c6222f/" },
       { text: "RPC", link: "/pages//" },
       { text: "消息队列", link: "/pages/2f66e5/" },
-      { text: "SpringCloud", link: "/pages/d67430/" },
+      { text: "SpringCloud", link: "/pages/75e0cf/" },
     ]
   },
   {
@@ -68,6 +68,7 @@ module.exports = [
         { text: "lombok注解使用小结", link: "/pages/bdbd1f/" },
         { text: "开发疑惑", link: "/pages/170fbd/" },
         { text: "开发小记", link: "/pages/3cd6be/" },
+        { text: "bug解决", link: "/pages/421084/" },
     ]
   },
   {
