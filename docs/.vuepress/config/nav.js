@@ -58,17 +58,9 @@ module.exports = [
     text: '开发日常',
     items: [
         { text: "脚手架搭建", link: "/pages/ebb9f9/" },
-        { text: "IDEA使用小结", link: "/pages/9b3216/" },
-        { text: "Git知识总结", link: "/pages/71f6ae/" },
-        { text: "nvm使用小结", link: "/pages/777b8a/" },
-        { text: "Spring MVC 项目构建流程", link: "/pages/477fc6/" },
-        { text: "虚拟机固定 IP 地址", link: "/pages/ee770e/" },
-        { text: "项目部署", link: "/pages/f2c351/" },
-        { text: "Apifox使用小结", link: "/pages/0a4f2c/" },
-        { text: "lombok注解使用小结", link: "/pages/bdbd1f/" },
-        { text: "开发疑惑", link: "/pages/170fbd/" },
-        { text: "开发小记", link: "/pages/3cd6be/" },
-        { text: "bug解决", link: "/pages/421084/" },
+        { text: "开发工具篇", link: "/pages/9b3216/" },
+        { text: "工具库篇", link: "/pages/bdbd1f/" },
+        { text: "随笔", link: "/pages/3cd6be/" },
     ]
   },
   {
