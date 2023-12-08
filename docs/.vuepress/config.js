@@ -2,7 +2,7 @@ const navConf = require('./config/nav')
 const { readFileList, readTotalFileWords, readEachFileWords } = require('./webSiteInfo/readFile');
 
 module.exports = {
-    title: 'DreamRain',
+    title: '沉梦听雨的编程指南',
     // base: '/cmty256/',
     description: '满招损，谦受益',
     locales: {
@@ -23,17 +23,35 @@ module.exports = {
             'meta',
             {
               name: 'keywords',
-              content: '自定义网站关键词'
+              content: "编程, 开发, 程序员"
             }
        ],[
             'meta',
             {
               name: 'description',
-              content: '自定义网站SEO描述信息。'
+              content: '沉梦听雨的编程指南'
             }
        ],
-        ['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3077305_pt8umhrn4k9.css' }], // 阿里在线矢量库
-        ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }] // 解决 Chrome 网站统计不准确问题
+        // 阿里在线矢量库
+        ['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3077305_pt8umhrn4k9.css' }],
+        // 解决 Chrome 网站统计不准确问题
+        ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }],
+        // 移动浏览器主题颜色
+        ['meta', { name: 'theme-color', content: '#11a8cd' }],
+        // 百度统计
+        [
+          "script",
+          {},
+          `
+            var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?04a2517feeaf9f0d4d507cee97057d7c";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
+            })();
+          `,
+        ],
 
     ],
     themeConfig: {
@@ -42,6 +60,10 @@ module.exports = {
         sidebar: 'structuring',
         sidebarDepth: 2,
         lastUpdated: '上次更新',
+        // 导航栏仓库链接设置
+        repo: 'https://gitee.com/dream-deeply-tyu/cmty256',
+        // 自定义导航栏仓库链接名称
+        repoLabel: "Gitee",
         nav: navConf,
         sidebar: {
             mode: 'structuring',
@@ -51,21 +73,55 @@ module.exports = {
         category: false,
         tag: false,
         archive: false,
+
+        // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
         author: {
-            name: '沉梦听雨'//必需
+          name: '沉梦听雨', // 必需
+          link: 'https://gitee.com/dream-deeply-tyu', // 可选的
         },
+
+        // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
+        social: {
+            // iconfontCssFile: '//at.alicdn.com/t/xxx.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自己添加。阿里图片库：https://www.iconfont.cn/
+            icons: [
+                {
+                    iconClass: 'icon-youjian',
+                    title: '发邮件',
+                    link: 'mailto:2691357857@qq.com',
+                },
+                {
+                    iconClass: 'icon-gitee',
+                    title: 'Gitee',
+                    link: 'https://gitee.com/dream-deeply-tyu',
+                },
+                {
+                    iconClass: 'icon-csdn',
+                    title: 'CSDN',
+                    link: 'https://blog.csdn.net/qq_54088234?spm=1011.2124.3001.5343',
+                },
+            ],
+        },
+
+        // 页脚信息
         footer: {
-            //页脚信息
-            createYear: 2023,
-            //博客创建年份
-            copyrightInfo: '沉梦听雨',
-            //博客版权信息，支持a标签
+            createYear: 2023, // 博客创建年份
+            copyrightInfo:
+                '沉梦听雨 | <a href="https://gitee.com/dream-deeply-tyu" target="_blank">MIT License</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
         },
+
+        // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
+        extendFrontmatter: {
+            author: {
+                name: '沉梦听雨',
+                link: 'https://gitee.com/dream-deeply-tyu'
+            }
+        },
+
         // 站点配置（首页 & 文章页）
         blogInfo: {
             blogCreate: '2023-5-10', // 博客创建时间
-            indexView: true,  // 开启首页的访问量和排名统计，默认 true（开启）
-            pageView: true,  // 开启文章页的浏览量统计，默认 true（开启）
+            indexView: false,  // 开启首页的访问量和排名统计，默认 true（开启）
+            pageView: false,  // 开启文章页的浏览量统计，默认 true（开启）
             readingTime: true,  // 开启文章页的预计阅读时间，条件：开启 eachFileWords，默认 true（开启）。可在 eachFileWords 的 readEachFileWords 的第二个和第三个参数自定义，默认 1 分钟 300 中文、160 英文
             eachFileWords: readEachFileWords([''], 300, 160),  // 开启每个文章页的字数。readEachFileWords(['xx']) 关闭 xx 目录（可多个，可不传参数）下的文章页字数和阅读时长，后面两个参数分别是 1 分钟里能阅读的中文字数和英文字数。无默认值。readEachFileWords() 方法默认排除了 article 为 false 的文章
             mdFileCountType: 'archives',  // 开启文档数。1. archives 获取归档的文档数（默认）。2. 数组 readFileList(['xx']) 排除 xx 目录（可多个，可不传参数），获取其他目录的文档数。提示：readFileList() 获取 docs 下所有的 md 文档（除了 `.vuepress` 和 `@pages` 目录下的文档）
@@ -107,10 +163,15 @@ module.exports = {
             }
         ],
         [
-            'vuepress-baidu-tongji',
+            'vuepress-plugin-zooming', // 放大图片
             {
-            hm: 'abcdefghijklmnopqrstuvwxyz123456'
-            }
-        ]
+                selector: '.theme-vdoing-content img:not(.no-zoom)', // 排除class是no-zoom的图片
+                options: {
+                    bgColor: 'rgba(0,0,0,0.6)',
+                },
+            },
+        ],
+        // 图片懒加载：https://github.com/tolking/vuepress-plugin-img-lazy
+        ['img-lazy'],
     ],
 }

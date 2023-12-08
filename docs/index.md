@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /img/2.png
-heroText: 沉梦听雨
-tagline: 时间是最好的浸渍剂，而沉淀是最好的提纯器
+heroText: 沉梦听雨的编程指南
+tagline: 时间是最好的浸渍剂，而沉淀是最好的提纯器🚀
 bannerBg: none
 actionText: 开始阅读 →
 actionLink: /pages/11aacc/
@@ -40,7 +40,7 @@ hideRightBar: true
 ```
 
 <ClientOnly>
-  <WebInfo />
+  <WebInfo></WebInfo>
 </ClientOnly>
 
 
