@@ -1,6 +1,11 @@
 const navConf = require('./config/nav')
 const { readFileList, readTotalFileWords, readEachFileWords } = require('./webSiteInfo/readFile');
 
+// 定义常量
+const author = "程序员沉梦听雨";
+const domain = "https://cmty256.github.io/";
+const tags = ["程序员", "编程", "计算机"];
+
 module.exports = {
     title: '沉梦听雨的编程指南',
     // base: '/cmty256/',
@@ -23,7 +28,7 @@ module.exports = {
             'meta',
             {
               name: 'keywords',
-              content: "编程, 开发, 程序员"
+              content: "编程分享, 开发, 程序员, Java, 计算机, IT, 八股"
             }
        ],[
             'meta',
@@ -173,5 +178,49 @@ module.exports = {
         ],
         // 图片懒加载：https://github.com/tolking/vuepress-plugin-img-lazy
         ['img-lazy'],
+        // 自定义生成的网站 meta 标签内容
+        [
+            "seo",
+            {
+                siteTitle: (_, $site) => $site.title,
+                title: ($page) => $page.title,
+                description: ($page) =>
+                    $page.frontmatter.description || $page.description,
+                author: (_, $site) => $site.themeConfig.author || author,
+                tags: ($page) => $page.frontmatter.tags || tags,
+                type: ($page) => "article",
+                url: (_, $site, path) =>
+                    ($site.themeConfig.domain || domain || "") + path,
+                image: ($page, $site) =>
+                    $page.frontmatter.image &&
+                    (($site.themeConfig.domain &&
+                            !$page.frontmatter.image.startsWith("http")) ||
+                        "") + $page.frontmatter.image,
+                publishedAt: ($page) =>
+                    $page.frontmatter.date && new Date($page.frontmatter.date),
+                modifiedAt: ($page) => $page.lastUpdated && new Date($page.lastUpdated),
+            },
+        ],
+        // 站点地图
+        [
+            "sitemap",
+            {
+                hostname: domain,
+            },
+        ],
+        // 配置RSS订阅
+        [
+            "feed",
+            {
+                canonical_base: domain,
+                count: 10000,
+                // 需要自动推送的文档目录
+                posts_directories: [],
+            },
+        ],
+        // 自动推送百度插件
+        [
+            'vuepress-plugin-baidu-autopush'
+        ]
     ],
 }
