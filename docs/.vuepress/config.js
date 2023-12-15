@@ -23,7 +23,7 @@ module.exports = {
     },
     base: '/',
     head: [
-        ['link', { rel: 'icon', href: 'https://jsd.cdn.zzko.cn/gh//cmty256/imgs-blog@main/logo/白云.38zbldnhh180.jpg' }], // 网页选项卡的logo
+        ['link', { rel: 'icon', href: 'https://jsd.cdn.zzko.cn/gh/cmty256/imgs-blog@main/logo/白云.38zbldnhh180.jpg' }], // 网页选项卡的logo
         [
             'meta',
             {
@@ -61,7 +61,7 @@ module.exports = {
     ],
     themeConfig: {
         updateBar:{showToArticle: false},
-        logo: 'https://jsd.cdn.zzko.cn/gh//cmty256/imgs-blog@main/logo/白云.38zbldnhh180.jpg',
+        logo: 'https://jsd.cdn.zzko.cn/gh/cmty256/imgs-blog@main/logo/白云.38zbldnhh180.jpg',
         sidebar: 'structuring',
         sidebarDepth: 2,
         lastUpdated: '上次更新',
