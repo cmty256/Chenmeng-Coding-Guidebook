@@ -60,6 +60,7 @@ module.exports = [
         { text: "脚手架搭建", link: "/pages/ebb9f9/" },
         { text: "开发工具篇", link: "/pages/9b3216/" },
         { text: "工具库篇", link: "/pages/bdbd1f/" },
+        { text: "开发技巧篇", link: "/pages/cc202d/" },
         { text: "工具类系列", link: "/pages/dea09d/" },
         { text: "随笔", link: "/pages/3cd6be/" },
     ]
