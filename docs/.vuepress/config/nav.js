@@ -15,8 +15,7 @@ module.exports = [
     items: [
       { text: "计算机网络", link: "/pages/7b1cb2/" },
       { text: "操作系统", link: "/pages/6048a8/" },
-      { text: "数据结构与算法", link: "/pages/3b34ba/" },
-      { text: "Linux", link: "/pages/412fe7/" },
+      { text: "数据结构与算法", link: "/pages/3b34ba/" }
     ]
   },
   {
@@ -52,6 +51,7 @@ module.exports = [
       { text: "RPC", link: "/pages//" },
       { text: "消息队列", link: "/pages/2f66e5/" },
       { text: "SpringCloud", link: "/pages/75e0cf/" },
+      { text: "虚拟机", link: "/pages/412fe7/" },
     ]
   },
   {
