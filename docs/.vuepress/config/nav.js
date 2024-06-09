@@ -51,6 +51,8 @@ module.exports = [
       { text: "RPC", link: "/pages//" },
       { text: "消息队列", link: "/pages/2f66e5/" },
       { text: "SpringCloud", link: "/pages/75e0cf/" },
+      { text: "分布式事务", link: "/pages/957695/" },
+      { text: "云存储", link: "/pages/2beec7/" },
       { text: "虚拟机", link: "/pages/412fe7/" },
     ]
   },
