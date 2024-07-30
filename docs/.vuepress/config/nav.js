@@ -59,8 +59,7 @@ module.exports = [
   {
     text: '开发日常',
     items: [
-        { text: "脚手架搭建", link: "/pages/ebb9f9/" },
-        { text: "开发工具篇", link: "/pages/9b3216/" },
+        { text: "开发工具篇", link: "/pages/626493/" },
         { text: "工具库篇", link: "/pages/bdbd1f/" },
         { text: "开发技巧篇", link: "/pages/cc202d/" },
         { text: "工具类系列", link: "/pages/dea09d/" },
@@ -77,17 +76,20 @@ module.exports = [
       { text: "黑马Vue3", link: "/pages/50e8d3/" },
     ]
   },
-  // {
-  //   text: '项目笔记',
-  //   items: [
-  //     { text: "脚手架搭建", link: "/pages/ebb9f9/" },
-  //     { text: "瑞吉外卖", link: "/pages/fbc2fc/" },
-  //     { text: "黑马点评", link: "/pages/ee76ba/" },
-  //     { text: "沉梦接口开放平台", link: "/pages/b363e2/" },
-  //     { text: "用户中心", link: "/pages/72b962/" },
-  //     { text: "RuoYi-Vue", link: "/pages/a2c11e/" },
-  //   ]
-  // },
+  {
+    text: '项目笔记',
+    items: [
+      { text: "脚手架搭建", link: "/pages/ebb9f9/" },
+      { text: "瑞吉外卖", link: "/pages/fbc2fc/" },
+      { text: "黑马点评", link: "/pages/ee76ba/" },
+      { text: "vue-blog", link: "/pages/fa01b6/" },
+      { text: "沉梦接口开放平台", link: "/pages/b363e2/" },
+      { text: "用户中心", link: "/pages/72b962/" },
+      { text: "聚合搜索平台", link: "/pages/8baa93/" },
+      { text: "仿12306项目", link: "/pages/a6b2f3/" },
+      { text: "RuoYi-Vue", link: "/pages/a2c11e/" },
+    ]
+  },
   {
     text: '其它',
     items: [
