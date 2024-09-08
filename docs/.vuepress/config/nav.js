@@ -24,6 +24,7 @@ module.exports = [
       { text: "基础篇", link: "/pages/efa3f2/" },
       { text: "MySql", link: "/pages/ccc445/" },
       { text: "Redis", link: "/pages/54616e/" },
+      { text: "达梦", link: "/pages/980c9c/" },
     ]
   },
   {
