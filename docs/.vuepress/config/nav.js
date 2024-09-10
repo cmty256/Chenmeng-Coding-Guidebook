@@ -39,10 +39,10 @@ module.exports = [
   {
     text: "系统设计",
     items: [
-      { text: "命名规范", link: "/pages/649916/" },
-      { text: "聊聊什么是耦合度", link: "/pages/07aee4/" },
+      { text: "设计须知", link: "/pages/649916/" },
+      { text: "UML画图", link: "/pages/3fcc71/" },
       { text: "权限校验", link: "/pages/793d0a/" },
-      { text: "设计模式", link: "/pages/73ddd7/" },
+      { text: "设计模式", link: "/pages/6ea7eb/" },
     ]
   },
   {
