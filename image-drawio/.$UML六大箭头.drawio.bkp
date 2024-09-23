@@ -1,0 +1,85 @@
+<mxfile host="Electron" modified="2024-09-22T07:18:09.789Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="Y_FMQ1DspVEi3XevRpaH" version="22.0.3" type="device">
+  <diagram name="第 1 页" id="EzfMsbHPbNIacxq7UXh_">
+    <mxGraphModel dx="1036" dy="606" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HIZ06WJK8Xc8VZZ9h2d8-1" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;许可证&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="378" y="153" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HIZ06WJK8Xc8VZZ9h2d8-2" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="245" y="351" as="sourcePoint" />
+            <mxPoint x="405" y="351" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HIZ06WJK8Xc8VZZ9h2d8-3" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;dependency：依赖使用&lt;br&gt;&lt;b&gt;虚线箭头&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="239" y="362" width="175" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="HIZ06WJK8Xc8VZZ9h2d8-8" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;association：表示关联&lt;br&gt;&lt;b&gt;实线箭头&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="512" width="168" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="HIZ06WJK8Xc8VZZ9h2d8-11" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="250.5" y="644" as="sourcePoint" />
+            <mxPoint x="408.5" y="642" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HIZ06WJK8Xc8VZZ9h2d8-13" value="&lt;p style=&quot;line-height: 140%;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;generalization：表示泛化（继承）&lt;br&gt;&lt;b&gt;实线空心三角箭头&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="209" y="646" width="246" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="HIZ06WJK8Xc8VZZ9h2d8-19" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;implementation / realization：表示实现&lt;br&gt;&lt;b&gt;虚线空心三角箭头&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="198" y="806" width="276" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="HIZ06WJK8Xc8VZZ9h2d8-21" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="252" y="938" as="sourcePoint" />
+            <mxPoint x="412" y="938" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HIZ06WJK8Xc8VZZ9h2d8-22" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="254" y="780" as="sourcePoint" />
+            <mxPoint x="414" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HIZ06WJK8Xc8VZZ9h2d8-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="119" y="602" width="437" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="HIZ06WJK8Xc8VZZ9h2d8-23" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="254" y="1087" as="sourcePoint" />
+            <mxPoint x="414" y="1087" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HIZ06WJK8Xc8VZZ9h2d8-26" value="&lt;p style=&quot;line-height: 170%;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;aggregation：表示聚合&lt;br&gt;&lt;b&gt;实线尾部为空心菱形箭头&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240.5" y="939" width="183" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="HIZ06WJK8Xc8VZZ9h2d8-27" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;composite：表示组合&lt;br&gt;&lt;b&gt;实线尾部为实心菱形箭头&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="240.5" y="1088" width="183" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="HIZ06WJK8Xc8VZZ9h2d8-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="118.5" y="751" width="438" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="HIZ06WJK8Xc8VZZ9h2d8-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="118" y="896" width="438" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="HIZ06WJK8Xc8VZZ9h2d8-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="117" y="1049" width="441" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="HIZ06WJK8Xc8VZZ9h2d8-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="121" y="310" width="435" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="HIZ06WJK8Xc8VZZ9h2d8-41" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="120.5" y="456" width="436" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="HIZ06WJK8Xc8VZZ9h2d8-43" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="261" y="494.5" as="sourcePoint" />
+            <mxPoint x="421" y="494.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
