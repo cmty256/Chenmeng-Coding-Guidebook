@@ -66,9 +66,9 @@ module.exports = {
         sidebarDepth: 2,
         lastUpdated: '上次更新',
         // 导航栏仓库链接设置
-        repo: 'https://gitee.com/dream-deeply-tyu/cmty256',
+        repo: 'https://github.com/cmty256/cmty256.github.io',
         // 自定义导航栏仓库链接名称
-        repoLabel: "Gitee",
+        repoLabel: "Github",
         nav: navConf,
         sidebar: {
             mode: 'structuring',
@@ -82,7 +82,7 @@ module.exports = {
         // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
         author: {
           name: '沉梦听雨', // 必需
-          link: 'https://gitee.com/dream-deeply-tyu', // 可选的
+          link: 'https://github.com/cmty256', // 可选的
         },
 
         // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
@@ -95,9 +95,9 @@ module.exports = {
                     link: 'mailto:2691357857@qq.com',
                 },
                 {
-                    iconClass: 'icon-gitee',
-                    title: 'Gitee',
-                    link: 'https://gitee.com/dream-deeply-tyu',
+                    iconClass: 'icon-github',
+                    title: 'Github',
+                    link: 'https://github.com/cmty256/cmty256.github.io',
                 },
                 {
                     iconClass: 'icon-csdn',
@@ -118,7 +118,7 @@ module.exports = {
         extendFrontmatter: {
             author: {
                 name: '沉梦听雨',
-                link: 'https://gitee.com/dream-deeply-tyu'
+                link: 'https://github.com/cmty256/cmty256.github.io'
             }
         },
 
