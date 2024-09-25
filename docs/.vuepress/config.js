@@ -66,7 +66,7 @@ module.exports = {
         sidebarDepth: 2,
         lastUpdated: '上次更新',
         // 导航栏仓库链接设置
-        repo: 'https://github.com/cmty256/cmty256.github.io',
+        repo: 'https://github.com/cmty256',
         // 自定义导航栏仓库链接名称
         repoLabel: "Github",
         nav: navConf,
@@ -118,7 +118,7 @@ module.exports = {
         extendFrontmatter: {
             author: {
                 name: '沉梦听雨',
-                link: 'https://github.com/cmty256/cmty256.github.io'
+                link: 'https://github.com/cmty256'
             }
         },
 
