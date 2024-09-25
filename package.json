@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "静态博客模板",
+  "description": "沉梦听雨的编程指南",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
     "docs:build": "vuepress build docs",
     "deploy": "bash deploy.sh"
   },
-  "author": "作者名称",
+  "author": "沉梦听雨",
   "devDependencies": {
     "@vuepress/plugin-medium-zoom": "^1.9.9",
     "dayjs": "^1.9.7",
